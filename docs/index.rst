@@ -8,6 +8,7 @@ Welcome to et-micc3's documentation!
 
    readme
    installation
+   apps
    api
    authors
    changelog

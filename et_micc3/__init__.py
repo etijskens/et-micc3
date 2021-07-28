@@ -7,7 +7,8 @@ Package et_micc3
 Top-level package for et_micc3.
 """
 
-__version__ = "0.0.0"
+import et_micc3.cli_micc3
+__version__ = "3.0.0"
 
 
 def hello(who='world'):

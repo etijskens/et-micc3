@@ -1,0 +1,27 @@
+{
+  "micc3": {
+    "options": {
+      "verbosity": 1,
+      "project_path": "/Users/etijskens/software/dev/workspace/et-micc3",
+      "default_project_path": true,
+      "clear_log": false,
+      "_cfg_filename": "micc2.cfg",
+      "_cfg_dir": "/Users/etijskens/.micc2",
+      "invoked_subcommand": "add",
+      "overwrite_preferences": {},
+      "add_name": "micc3",
+      "cli": true,
+      "clisub": true,
+      "py": false,
+      "package": false,
+      "f90": false,
+      "cpp": false,
+      "templates": "app-sub-commands",
+      "overwrite": false,
+      "backup": false
+    },
+    "APPS.rst": ".. click:: et_micc3.cli_micc3:main\n   :prog: micc3\n   :show-nested:\n\n",
+    "pyproject.toml": "micc3 = \"refactoring_dev:cli_micc3.main\"\n",
+    "et_micc3/__init__.py": "import et_micc3.cli_micc3\n"
+  }
+}
